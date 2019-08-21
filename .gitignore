@@ -1,0 +1,5 @@
+dwm/dwm
+*.o
+slock/slock
+dmenu/dmenu
+dmenu/stest
