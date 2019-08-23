@@ -2,6 +2,9 @@
 
 import subprocess as sp
 
+# install required things
+sp.call(['sudo', 'apt', 'install', 'build-essential', 'xorg', '-y'])
+
 # lets compile dwm first
 sp.os.chdir('dwm')
 sp.call(['sh', 'depends'])
